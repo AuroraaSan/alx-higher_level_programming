@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-last = number[-1]
+last = str(number[-1])
 print(
         "Last digit of {:d} is {:d} and is "
         .format(number, last), end="")
