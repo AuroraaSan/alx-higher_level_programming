@@ -3,7 +3,7 @@ def pow(a, b):
     if b == 0:
         return 1
     res = a
-    for i in range (1, abs(b)):
+    for i in range(1, abs(b)):
         res *= a
     if b < 0:
         return 1 / res
