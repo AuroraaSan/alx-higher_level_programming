@@ -4,4 +4,5 @@ if "__name__" == "__main__":
     result = 0
     count = len(sys.arg) - 1
     for i in range(count):
-        result += sys.argv[i + 1]
+        result += int(sys.argv[i + 1])
+    print(result)
